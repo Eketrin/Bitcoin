@@ -11,9 +11,10 @@
         <TextBlock x:Name="Result" HorizontalAlignment="Left" Margin="429,158,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="150" Width="246"/>
         <Button x:Name="DoResult" Content="Поиск" HorizontalAlignment="Left" VerticalAlignment="Top" Width="48" Margin="566,122,0,0" Click="DoResult_Click" Height="23"/>
         <ListBox x:Name="List" HorizontalAlignment="Left" Height="150" VerticalAlignment="Top" Width="216" Margin="131,161,0,0" SelectionChanged="List_SelectionChanged"/>
-        <Button x:Name="AddToList" Content="Добавить" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="272,123,0,0" Click="AddToList_Click"/>
+        <Button x:Name="AddToList" Content="Добавить" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="272,96,0,0" Click="AddToList_Click"/>
         <TextBox x:Name="Search" HorizontalAlignment="Left" Margin="429,122,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="128" TextChanged="Search_TextChanged_1" Height="23"/>
         <Button Content="Очистить" HorizontalAlignment="Left" Margin="619,122,0,0" VerticalAlignment="Top" Height="23" Width="56" Click="Button_Click"/>
+        <Button x:Name="RemoveDay" Content="Убрать" HorizontalAlignment="Left" Margin="272,130,0,0" VerticalAlignment="Top" Width="75" Click="RemoveDay_Click"/>
 
     </Grid>
 </Window>

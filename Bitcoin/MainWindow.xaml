@@ -1,0 +1,19 @@
+﻿<Window x:Class="Bitcoin.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Bitcoin"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="Input" HorizontalAlignment="Left" Height="23" Margin="131,122,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged" />
+        <TextBlock x:Name="Result" HorizontalAlignment="Left" Margin="429,158,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="150" Width="246"/>
+        <Button x:Name="DoResult" Content="Поиск" HorizontalAlignment="Left" VerticalAlignment="Top" Width="48" Margin="566,122,0,0" Click="DoResult_Click" Height="23"/>
+        <ListBox x:Name="List" HorizontalAlignment="Left" Height="150" VerticalAlignment="Top" Width="216" Margin="131,161,0,0" SelectionChanged="List_SelectionChanged"/>
+        <Button x:Name="AddToList" Content="Добавить" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="272,123,0,0" Click="AddToList_Click"/>
+        <TextBox x:Name="Search" HorizontalAlignment="Left" Margin="429,122,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="128" TextChanged="Search_TextChanged_1" Height="23"/>
+        <Button Content="Очистить" HorizontalAlignment="Left" Margin="619,122,0,0" VerticalAlignment="Top" Height="23" Width="56" Click="Button_Click"/>
+
+    </Grid>
+</Window>
